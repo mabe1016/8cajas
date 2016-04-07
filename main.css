@@ -1,0 +1,31 @@
+.cajas{
+	border: 2px solid black;
+	background: #808080;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	
+ }
+
+ .contenedor {
+	border: 2px solid black;
+	background: #808080;
+	margin-left: 10px;
+
+ }
+
+  .contenedor, .juntas {
+	
+	display: inline-block;
+	
+ }
+
+
+ .gran:only-child{
+	
+	margin-top: -6px;
+ }
+ div:last-of-type{
+	
+	margin-top: -3px;
+ }
